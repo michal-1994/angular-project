@@ -6,7 +6,7 @@ import { RecipeService } from "../recipes/recipe.service";
 
 @Injectable({providedIn: 'root'})
 export class DataStorageService {
-    private url: string = '';
+    private url: string = 'https://ng-course-recipe-book-e1d2d-default-rtdb.firebaseio.com/recipes.json';
 
     constructor(
         private http: HttpClient,
